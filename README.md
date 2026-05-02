@@ -29,6 +29,7 @@ Time-series embeddings
 Textual embeddings
 ✅ Evaluation on real-world (ETT) and synthetic datasets
 ✅ Demonstration of accurate + interpretable forecasting
+
 🏗️ Methodology
 🔹 Model Architecture
 
@@ -50,6 +51,7 @@ Multimodal Extension
 Combines:
 Time-series embeddings
 Text embeddings (Sentence Transformers)
+
 📊 Datasets
 1. Real Dataset
 Electricity Transformer Temperature (ETT) dataset
@@ -62,6 +64,7 @@ Generated using:
 Sine, cosine, square, and composite signals
 Designed to simulate:
 Low vs High temperature patterns
+
 ⚙️ Training Details
 Framework: PyTorch
 Encoder: 3-layer BiLSTM
@@ -73,6 +76,7 @@ Evidence Loss
 Diversity Loss
 Forecast Horizon:
 12, 24, 48, 72 time steps
+
 📈 Evaluation Metrics
 Forecasting
 MSE (Mean Squared Error)
@@ -88,6 +92,7 @@ Readability
 Fluency
 Completeness
 Length
+
 🔍 Results
 ✔️ High forecasting accuracy across multiple horizons
 ✔️ Stable performance even for long-term predictions
